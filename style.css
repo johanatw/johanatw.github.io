@@ -1,0 +1,79 @@
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+ul{
+    list-style: none;
+}
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 37% 1fr;
+    filter: drop-shadow(0 0 0.4rem black);
+    font-family: Cambria, 'Cambria', serif;
+}
+.personal, .referencias{
+    padding: 1.5rem;
+    line-height: 2rem;
+}
+.personal ul{
+    margin: 1rem 0;
+    font-size: 14px;
+}
+.referencias ul{
+    margin: 1rem 0;
+    font-size: 14px;
+}
+.experience, .educacion, .hobbies {
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255);
+}
+.right{
+    margin-right: 15rem;
+}
+.left{
+    background-color: rgb(83, 104, 120);
+    margin-left: 15rem;
+}
+.left-image{
+    position:relative;
+}
+.left-image img{
+    width: 100%;
+    padding: 3rem;
+}
+.left-image h1{
+    position:absolute;
+    bottom:0;
+    left: 1.5rem;
+}
+.experience ul{
+    margin: 1rem 0;
+}
+.sub1{
+    font-size: 19px;
+    font-weight: bolder;
+}
+.sub2{
+    color: dimgray;
+    font-weight: bolder;
+    line-height: 1.5rem;
+}
+.educacion ul{
+    margin: 1rem 0;
+}
+.educacion h4{
+    color: dimgray;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+.hobbies ul{
+    margin: 1rem 0;
+}
+
